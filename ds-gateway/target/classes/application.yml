@@ -1,0 +1,29 @@
+server:
+  port: 10002
+spring:
+  application:
+    name: ds-gateway
+eureka:
+  client:
+    registry-fetch-interval-seconds: 5
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+zuul:
+  prefix: /api  #添加路由前缀
+  retryable: true
+  routes:
+    ds-item-service: /item/** #商品微服务
+    ds-user: /user/** #用户微服务
+    ds-authentication: /authentication/** #授权中心微服务
+    ds-search: /search/** #搜索微服务
+    ds-common: /common/**
+    ds-sms: /sms/** #短信微服务
+    ds-comments: /review/** #评论微服务
+    ds-secondkill: /secondkill/** #秒杀微服务
+    ds-order: /order/** #订单微服务
+    ds-cart: /cart/** #购物车微服务
+  ignored-services: "ds-upload" #忽略ds-upload微服务
+  add-host-header: true #携带请求本身的head头信息
+  sensitive-headers: #匹配禁止使用的头信息，这里设置为null,否则set-cookie无效
+
+

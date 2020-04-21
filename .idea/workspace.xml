@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dfd33229-91f9-4f90-a385-dfef709c2e40" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\Maven-Repository" />
+        <option name="mavenHome" value="F:/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aWLJDu2eEw8qJzq0qW6PWuFUuZ" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ds-item/ds-item-service" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.55287355" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.leon.gateway.config" />
+      <recent name="com.leon.properties" />
+      <recent name="com.leon.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\LeonDemoCode\dazzling-shop\ds-upload\src\main\java\upload" />
+      <recent name="G:\LeonDemoCode\dazzling-shop\ds-order\src\main\java\com\leon\order" />
+      <recent name="G:\LeonDemoCode\dazzling-shop\ds-comments\ds-comments-service\src\main\java\com\leon" />
+      <recent name="G:\LeonDemoCode\dazzling-shop\ds-comments\src\main\java\com\leon" />
+      <recent name="G:\LeonDemoCode\dazzling-shop\ds-order\ds-order-interface\src\main\java\com\leon" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ItemServiceApplication">
+    <configuration name="AuthenticationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ds-authentication-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leon.authentication.AuthenticationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ds-comments-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leon.comments.CommentsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ds-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leon.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ds-item-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leon.item.ItemServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeonUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ds-upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="upload.LeonUploadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ds-order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leon.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ds-registry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leon.registry.RegistryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ds-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leon.SearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ds-sms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leon.sms.SmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ds-user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leon.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfd33229-91f9-4f90-a385-dfef709c2e40" name="Default Changelist" comment="" />
+      <created>1586846328450</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586846328450</updated>
+      <workItem from="1586846334668" duration="66238000" />
+      <workItem from="1587032060767" duration="4204000" />
+      <workItem from="1587289702097" duration="21625000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1032" y="179" key="#Project_Structure" timestamp="1587030884078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1587030884078" />
+    <state x="487" y="165" width="1174" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586877127287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="487" y="165" width="1174" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586877127287" />
+    <state x="979" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1587397572071">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="979" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587397572071" />
+    <state x="986" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587396658050">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="986" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587396658050" />
+    <state x="1030" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587024761719">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1030" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587024761719" />
+    <state x="1170" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587020377151">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1170" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587020377151" />
+    <state x="1236" y="262" key="FileChooserDialogImpl" timestamp="1587449641480">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1236" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587449641480" />
+    <state width="609" height="394" key="GridCell.Tab.0.bottom" timestamp="1587450941981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="609" height="394" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587450941981" />
+    <state width="609" height="394" key="GridCell.Tab.0.center" timestamp="1587450941980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="609" height="394" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587450941980" />
+    <state width="609" height="394" key="GridCell.Tab.0.left" timestamp="1587450941980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="609" height="394" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587450941980" />
+    <state width="609" height="394" key="GridCell.Tab.0.right" timestamp="1587450941980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="609" height="394" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587450941980" />
+    <state width="609" height="394" key="GridCell.Tab.1.bottom" timestamp="1587450941981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="609" height="394" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587450941981" />
+    <state width="609" height="394" key="GridCell.Tab.1.center" timestamp="1587450941981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="609" height="394" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587450941981" />
+    <state width="609" height="394" key="GridCell.Tab.1.left" timestamp="1587450941981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="609" height="394" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587450941981" />
+    <state width="609" height="394" key="GridCell.Tab.1.right" timestamp="1587450941981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="609" height="394" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587450941981" />
+    <state x="999" y="296" key="NewModule_or_Project.wizard" timestamp="1587449643248">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="999" y="296" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587449643248" />
+    <state x="764" y="73" key="SettingsEditor" timestamp="1587449646676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="764" y="73" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587449646676" />
+    <state x="1045" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587027323637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1045" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587027323637" />
+    <state x="593" y="432" width="786" height="608" key="find.popup" timestamp="1587447874158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="593" y="432" width="786" height="608" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587447874158" />
+    <state x="375" y="381" key="new project wizard" timestamp="1587028735183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="375" y="381" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587028735183" />
+    <state x="1141" y="147" key="refactoring.ChangeSignatureDialog" timestamp="1587020235708">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1141" y="147" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587020235708" />
+  </component>
+</project>

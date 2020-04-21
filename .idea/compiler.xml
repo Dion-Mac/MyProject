@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ds-cart" />
+        <module name="ds-item-interface" />
+        <module name="ds-sms" />
+        <module name="ds-comments-service" />
+        <module name="ds-secondkill-service" />
+        <module name="ds-order-interface" />
+        <module name="ds-search" />
+        <module name="ds-secondkill-interface" />
+        <module name="ds-user-interface" />
+        <module name="ds-goods-web" />
+        <module name="ds-authentication-service" />
+        <module name="ds-gateway" />
+        <module name="ds-authentication-common" />
+        <module name="ds-user-service" />
+        <module name="ds-comments-interface" />
+        <module name="ds-config" />
+        <module name="ds-item-service" />
+        <module name="ds-registry" />
+        <module name="ds-common" />
+        <module name="ds-order-service" />
+        <module name="ds-upload" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ds-authentication-interface" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dazzling-shop" options="" />
+      <module name="ds-authentication-common" options="-parameters" />
+      <module name="ds-authentication-service" options="-parameters" />
+      <module name="ds-cart" options="-parameters" />
+      <module name="ds-comments-interface" options="-parameters" />
+      <module name="ds-comments-service" options="-parameters" />
+      <module name="ds-common" options="-parameters" />
+      <module name="ds-config" options="-parameters" />
+      <module name="ds-gateway" options="-parameters" />
+      <module name="ds-goods-web" options="-parameters" />
+      <module name="ds-item-interface" options="-parameters" />
+      <module name="ds-item-service" options="-parameters" />
+      <module name="ds-order-interface" options="-parameters" />
+      <module name="ds-order-service" options="-parameters" />
+      <module name="ds-registry" options="-parameters" />
+      <module name="ds-search" options="-parameters" />
+      <module name="ds-secondkill-interface" options="-parameters" />
+      <module name="ds-secondkill-service" options="-parameters" />
+      <module name="ds-sms" options="-parameters" />
+      <module name="ds-upload" options="-parameters" />
+      <module name="ds-user" options="-parameters" />
+      <module name="ds-user-interface" options="-parameters" />
+      <module name="ds-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
