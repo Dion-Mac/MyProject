@@ -1,0 +1,17 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: ds-sms-service
+  rabbitmq:
+    virtual-host: /leon
+    username: leon
+    password: 512321
+    host: 192.168.0.100
+
+leon:
+  sms:
+    accessKeyId: LTAIc259TULYzaS7
+    accessKeySecret: 1uh79I1UAmwQ4YWsSmOgxw7JEBGA0v
+    signName: 乐优商城
+    verifyCodeTemplate: SMS_148614415

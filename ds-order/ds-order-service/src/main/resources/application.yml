@@ -1,33 +1,25 @@
 server:
-  port: 8081
+  port: 8089
 spring:
   application:
-    name: ds-item-service
+    name: ds-order-service
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/dazzling?characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://127.0.0.1:3306/dazzling?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
     username: root
     password: 512321
     hikari:
-      maximum-pool-size: 20
-      minimum-idle: 10
-
-    driver-class-name: com.mysql.jdbc.Driver
-
-  redis:
-    host: 192.168.0.100
+      maximum-pool-size: 200
+      minimum-idle: 100
   rabbitmq:
     virtual-host: /leon
     username: leon
     password: 512321
     host: 192.168.0.100
     template:
-      retry:
-        enabled: true
-        multiplier: 2
-        initial-interval: 10000ms
-        max-interval: 210000ms
-      exchange: leon.item.exchange
+      queue: leon.order.delay.queue
     publisher-confirms: true
+  redis:
+    host: 192.168.0.100
 eureka:
   client:
     service-url:
@@ -39,6 +31,10 @@ eureka:
     ip-address: 127.0.0.1
     lease-renewal-interval-in-seconds: 5
     lease-expiration-duration-in-seconds: 10
+
+mybatis:
+  type-aliases-package: com.leon.order.pojo
+  mapper-locations: mapper/OrderMapper.xml
 
 ribbon:
   ConnectTimeout: 4000 # 连接超时时间(ms)
@@ -53,3 +49,17 @@ hystrix:
         isolation:
           thread:
             timeoutInMillisecond: 10000 # 熔断超时时长：10000ms
+
+leon:
+  worker:
+    workerId: 1
+    dataCenterId: 1
+  jwt:
+    cookieName: DS_TOKEN
+    pubKeyPath: G:\\tmp\\rsa\\rsa.pub # 公钥地址
+  pay:
+    appId: wx8397f8696b538317
+    mchId: 1473426802
+    key: T6m9iK73b0kn9g5v426MKfHQH7X8rKwb
+    connectTimeoutMs: 5000
+    readTimeoutMs: 10000

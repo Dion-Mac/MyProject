@@ -1,33 +1,40 @@
 server:
-  port: 8087
+  port: 8085
 spring:
   application:
-    name: ds-authentication-service
+    name: ds-user-service
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/dazzling?characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 123456
+    hikari:
+      maximum-pool-size: 20
+      minimum-idle: 10
+  redis:
+    host: 192.168.0.100
   rabbitmq:
     virtual-host: /leon
     username: leon
     password: 512321
     host: 192.168.0.100
+    template:
+      retry:
+        enabled: true
+        max-interval: 210000ms
+        initial-interval: 10000ms
+        multiplier: 2
+    publisher-confirms: true
 eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:10086/eureka
-    registry-fetch-interval-seconds: 10
+    registry-fetch-interval-seconds: 5
   instance:
     instance-id: ${spring.application.name}:${server.port}
     prefer-ip-address: true  #当你获取host时，返回的不是主机名，而是ip
     ip-address: 127.0.0.1
-    lease-expiration-duration-in-seconds: 10 #10秒不发送九过期
-    lease-renewal-interval-in-seconds: 5 #每隔5秒发一次心跳
-leon:
-  jwt:
-    secret: leon@Login(Auth}*^31)&leon% # 登录校验的密钥
-    pubKeyPath: G:\\tmp\\rsa\\rsa.pub # 公钥地址
-    priKeyPath: G:\\tmp\\rsa\\rsa.pri # 私钥地址
-    expire: 30 # 过期时间,单位分钟
-    cookieName: DS_TOKEN
-    cookieMaxAge: 30
-
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 15
 ribbon:
   ConnectTimeout: 4000 # 连接超时时间(ms)
   ReadTimeout: 2000 # 通信超时时间(ms)
@@ -41,3 +48,5 @@ hystrix:
         isolation:
           thread:
             timeoutInMillisecond: 10000 # 熔断超时时长：10000ms
+mybatis:
+  type-aliases-package: com.leon.user.pojo
