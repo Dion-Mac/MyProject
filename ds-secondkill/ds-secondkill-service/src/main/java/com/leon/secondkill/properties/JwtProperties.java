@@ -1,4 +1,4 @@
-package com.leon.order.properties;
+package com.leon.secondkill.properties;
 
 import com.leon.authentication.utils.RsaUtils;
 import org.slf4j.Logger;
@@ -10,10 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import javax.annotation.PostConstruct;
 import java.security.PublicKey;
 
-/**
- * @author LeonMac
- * @description
- */
+
 //@ConfigurationProperties(prefix = "leon.jwt")
 @Configuration
 @RefreshScope
@@ -30,7 +27,10 @@ public class JwtProperties {
      */
     private PublicKey publicKey;
 
-    @Value("${leon.jwt.cookieName}")
+    /**
+     * cookie名字
+     */
+    @Value("{leon.jwt.cookieName}")
     private String cookieName;
 
     private static final Logger logger = LoggerFactory.getLogger(JwtProperties.class);
